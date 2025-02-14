@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    padding: 1 rem;
+
+}
+.card{
+    background-color: #222;
+    color: azure;
+    padding: 1rem;
+    min-height: 80vh;
+    width: 50%;
+    overflow: scroll;
+    border-radius: 0.76rem;
+
+}
+.card-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input{
+    border: none;
+    border-radius: 0.6rem;
+    padding: revert;
+    width: 80%;
+}
+.btn{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    background-color: blue;
+    color: aliceblue;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: aqua;
+    color: blueviolet;
+}
+#addTodoButton{
+    width: 19%;
+
+}
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    transition: all 0.3s;
+
+}
+.li-style:hover{
+    background-color: white;
+    color: black;
+}
+.bg-success{
+    margin: 0.5rem;
+    padding: 0.8rem;
+    color: black;
+    background-color: aqua;
+    border-left: 6px solid #04aa04;
+
+}
+.bg-danger{
+    margin: 0.5rem;
+    padding: 0.8rem;
+    color: white;
+    background-color:red;
+    border-left: 6px solid wheat;
+
+}
